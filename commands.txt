@@ -15,3 +15,7 @@ git restore --staged my-file.txt // remove file from stage/index
 git restore my-file.txt // remove any changes from file - cannot be added to index
 git diff // show uncommited changes
 git merge branch-name // merge changes from branch-name into current branch
+git clone "[url]" // clone repository from given url
+git push origin branch-name // push branch-name to origin
+git remote add origin https://github.com/mariuszpastuszka/git-exercises-partII.git // set repository as new remote
+git push -u origin main // set default value
