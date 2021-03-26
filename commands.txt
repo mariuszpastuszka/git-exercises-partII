@@ -7,3 +7,7 @@ git status // show current status in repository
 git commit -m "my first commit" // commit changes to repository, -m - creates message which idenitifies changes
 git log // show history
 git show "commit-id" // show changes from commmit of commit-id
+git checkout "[commitId/branch-name]" // switch to commit of id or to specyfic branch
+git branch -a // display all branches in repository
+git checkout -b branch-name - create new branch and switch into that one
+git branch branch-name - create new branch but do not switch into it
