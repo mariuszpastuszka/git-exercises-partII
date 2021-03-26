@@ -6,3 +6,4 @@ git add . // add changes to index/stage
 git status // show current status in repository
 git commit -m "my first commit" // commit changes to repository, -m - creates message which idenitifies changes
 git log // show history
+git show "commit-id" // show changes from commmit of commit-id
