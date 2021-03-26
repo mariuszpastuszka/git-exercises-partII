@@ -18,4 +18,4 @@ git merge branch-name // merge changes from branch-name into current branch
 git clone "[url]" // clone repository from given url
 git push origin branch-name // push branch-name to origin
 git remote add origin https://github.com/mariuszpastuszka/git-exercises-partII.git // set repository as new remote
-git push -u origin main // set default value
+git push -u origin master // push changes to remote repository
