@@ -1,0 +1,8 @@
+git init // create empty repository in current folder
+git config -l // show git configuration
+git config --global user.name "[name]" // set parameter user.name to value "[name]"
+git config --global user.email "[email address]" // set parameter user.email to value "[email address]"
+git add . // add changes to index/stage
+git status // show current status in repository
+git commit -m "my first commit" // commit changes to repository, -m - creates message which idenitifies changes
+git log // show history
