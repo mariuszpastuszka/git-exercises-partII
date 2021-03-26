@@ -11,3 +11,6 @@ git checkout "[commitId/branch-name]" // switch to commit of id or to specyfic b
 git branch -a // display all branches in repository
 git checkout -b branch-name - create new branch and switch into that one
 git branch branch-name - create new branch but do not switch into it
+git restore --staged my-file.txt // remove file from stage/index
+git restore my-file.txt // remove any changes from file - cannot be added to index
+git diff // show uncommited changes
