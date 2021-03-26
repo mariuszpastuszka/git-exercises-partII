@@ -14,3 +14,4 @@ git branch branch-name - create new branch but do not switch into it
 git restore --staged my-file.txt // remove file from stage/index
 git restore my-file.txt // remove any changes from file - cannot be added to index
 git diff // show uncommited changes
+git merge branch-name // merge changes from branch-name into current branch
